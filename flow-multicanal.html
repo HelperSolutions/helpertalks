@@ -402,7 +402,7 @@ html,body{max-width:100%;overflow-x:clip}/*mobile-safeguard*/</style>
   </div>
 </div></footer>
 <style>
-.wam-root{--wam-bg:#0B1120;--wam-surface:#101827;--wam-surface-2:#17233A;--wam-border:#24304A;--wam-accent:#2DD4BF;--wam-accent-soft:rgba(45,212,191,.12);--wam-accent-2:#6C5CE7;--wam-text:#E7ECF3;--wam-muted:#8A94A6;--wam-danger:#FF6B6B;--wam-radius:18px}
+.wam-root{--wam-bg:#0B1120;--wam-surface:#101827;--wam-surface-2:#17233A;--wam-border:#24304A;--wam-accent:#FF4E00;--wam-accent-soft:rgba(255,78,0,.12);--wam-accent-2:#FF4E00;--wam-text:#E7ECF3;--wam-muted:#8A94A6;--wam-danger:#FF6B6B;--wam-radius:18px}
 .wam-overlay{position:fixed;inset:0;background:rgba(4,8,16,.72);backdrop-filter:blur(4px);display:none;align-items:flex-end;justify-content:center;z-index:999;padding:0}
 .wam-overlay.wam-open{display:flex}
 @media(min-width:640px){.wam-overlay{align-items:center;padding:24px}}
@@ -413,7 +413,7 @@ html,body{max-width:100%;overflow-x:clip}/*mobile-safeguard*/</style>
 .wam-modal-close{position:absolute;top:18px;right:18px;background:var(--wam-surface-2);border:1px solid var(--wam-border);color:var(--wam-muted);width:32px;height:32px;border-radius:50%;cursor:pointer;font-size:16px;line-height:1;display:flex;align-items:center;justify-content:center}
 .wam-modal-close:hover{color:var(--wam-text);border-color:var(--wam-accent)}
 .wam-eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:.75rem;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--wam-accent);margin-bottom:14px}
-.wam-dot{width:7px;height:7px;border-radius:50%;background:var(--wam-accent);box-shadow:0 0 0 0 rgba(45,212,191,.6);animation:wamPulse 1.8s infinite}
+.wam-dot{width:7px;height:7px;border-radius:50%;background:var(--wam-accent);box-shadow:0 0 0 0 rgba(255,78,0,.6);animation:wamPulse 1.8s infinite}
 @keyframes wamPulse{0%{box-shadow:0 0 0 0 rgba(45,212,191,.55)}70%{box-shadow:0 0 0 8px rgba(45,212,191,0)}100%{box-shadow:0 0 0 0 rgba(45,212,191,0)}}
 .wam-modal h2{font-family:'Plus Jakarta Sans','Space Grotesk',sans-serif;font-size:1.35rem;margin:0 0 8px;color:var(--wam-text)}
 .wam-modal .wam-desc{color:var(--wam-muted);font-size:.9rem;line-height:1.5;margin:0 0 24px}
@@ -432,7 +432,7 @@ html,body{max-width:100%;overflow-x:clip}/*mobile-safeguard*/</style>
 .wam-opt.wam-selected{background:var(--wam-accent-soft);border-color:var(--wam-accent);color:var(--wam-accent);font-weight:600}
 .wam-conditional-field{max-height:0;overflow:hidden;opacity:0;margin-top:0;transition:max-height .25s ease,opacity .2s ease,margin-top .25s ease}
 .wam-conditional-field.wam-show{max-height:140px;opacity:1;margin-top:24px}
-.wam-submit-btn{width:100%;margin-top:26px;padding:15px;border:none;border-radius:12px;background:linear-gradient(135deg,var(--wam-accent),#1FBFA8);color:#04231F;font-family:'Inter',system-ui,sans-serif;font-weight:700;font-size:.95rem;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:8px}
+.wam-submit-btn{width:100%;margin-top:26px;padding:15px;border:none;border-radius:12px;background:var(--wam-accent);color:#fff;font-family:'Inter',system-ui,sans-serif;font-weight:700;font-size:.95rem;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:8px}
 .wam-submit-btn:hover{filter:brightness(1.05)}
 .wam-submit-btn svg{width:18px;height:18px}
 .wam-privacy-note{color:var(--wam-muted);font-size:.72rem;text-align:center;margin-top:12px;line-height:1.4}
